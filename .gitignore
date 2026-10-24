@@ -1,0 +1,68 @@
+# ---- Build output ----
+build/
+android/.gradle/
+android/.kotlin/
+android/app/build/
+android/app/.cxx/
+android/build/
+*.apk
+*.aab
+*.idsig
+*.o
+*.obj
+*.so
+*.a
+*.exe
+*.dll
+
+# ---- Local machine / IDE ----
+local.properties
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+captures/
+
+# ---- Signing keys (never publish) ----
+android/keystore.properties
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pem
+
+# ---- Game files, system software and test programs (never publish) ----
+# Users supply their own files; nothing copyrighted belongs in this repo.
+testroms/
+roms/
+games/
+*.gba
+*.agb
+*.gb
+*.gbc
+*.nds
+*.dsi
+*.3ds
+*.3dsx
+*.cia
+*.cci
+*.cxi
+*.nsp
+*.xci
+*.zip
+*.7z
+*.rar
+*.bin
+*.rom
+*.keys
+
+# ---- Emulator output (saves, states, screenshots, recordings) ----
+*.sav
+*.ss0
+*.ss[1-9]
+*.state
+*.srm
+/*.png
+/*.wav

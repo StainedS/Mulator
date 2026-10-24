@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">M-ulator</string>
+
+    <!-- Library -->
+    <string name="library">Library</string>
+    <plurals name="game_count">
+        <item quantity="one">%d game</item>
+        <item quantity="other">%d games</item>
+    </plurals>
+    <string name="search">Search</string>
+    <string name="search_hint">Search your games</string>
+    <string name="settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="continue_playing">Continue playing</string>
+    <string name="resume">Resume</string>
+    <string name="play">Play</string>
+    <string name="start_from_title">Start from title screen</string>
+    <string name="filter_all">All</string>
+    <string name="filter_favorites">Favorites</string>
+    <string name="filter_recent">Recently played</string>
+    <string name="no_favorites">No favorites yet. Long-press a game and tap the star.</string>
+    <string name="no_matches">No games match.</string>
+    <string name="new_game">New</string>
+    <string name="game_options">Game options</string>
+    <string name="favorite">Favorite</string>
+    <string name="add_to_home">Home screen</string>
+    <string name="remove">Remove</string>
+    <string name="last_played">Last played</string>
+    <string name="play_time">Play time</string>
+    <string name="file_size">Size</string>
+    <string name="never_played">Never</string>
+    <string name="just_now">Just now</string>
+    <string name="playtime_none">Under a minute</string>
+    <string name="playtime_minutes">%d min</string>
+    <string name="playtime_hours">%1$d h %2$d min</string>
+    <string name="shortcut_unsupported">Your launcher doesn\'t support pinned shortcuts</string>
+
+    <!-- Adding games -->
+    <string name="welcome_title">Welcome to M-ulator</string>
+    <string name="welcome_body">Pick the folder where you keep your games and they\'ll show up here automatically, including ones you add later.</string>
+    <string name="add_games">Add games</string>
+    <string name="add_folder">Add a games folder</string>
+    <string name="add_folder_hint">Finds every game inside and keeps watching for new ones</string>
+    <string name="open_file">Open a single file</string>
+    <string name="open_file_hint">Pick one game file from your phone</string>
+    <string name="no_games_included">M-ulator doesn\'t include any games. Use backups of games you own.</string>
+    <string name="load_failed">Could not load this file. Make sure it\'s a supported game file.</string>
+
+    <!-- In game -->
+    <string name="paused">Paused</string>
+    <string name="menu_resume">Resume</string>
+    <string name="menu_reset">Reset</string>
+    <string name="menu_reset_confirm">Sure?</string>
+    <string name="menu_quit">Quit</string>
+    <string name="save_states">Save states</string>
+    <string name="save">Save</string>
+    <string name="load">Load</string>
+    <string name="slot_n">Slot %d</string>
+    <string name="slot_auto">Auto</string>
+    <string name="slot_empty">Empty</string>
+    <string name="saved_slot">Saved to slot %d</string>
+    <string name="loaded_slot">Loaded slot %d</string>
+    <string name="resumed">Resumed where you left off</string>
+    <string name="restart">Restart</string>
+    <string name="state_failed">Could not save state</string>
+    <string name="state_load_failed">Could not load that state</string>
+
+    <!-- Controller styles and layout editor -->
+    <string name="skin_classic">Classic</string>
+    <string name="skin_minimal">Minimal</string>
+    <string name="skin_console">Console</string>
+    <string name="skin_neon">Neon</string>
+    <string name="skin_retro">Retro</string>
+    <string name="skin_pastel">Pastel</string>
+    <string name="control_dpad">D-pad</string>
+    <string name="control_a">A button</string>
+    <string name="control_b">B button</string>
+    <string name="control_l">L button</string>
+    <string name="control_r">R button</string>
+    <string name="control_select">Select</string>
+    <string name="control_start">Start</string>
+    <string name="control_rewind">Rewind</string>
+    <string name="control_menu">Menu</string>
+    <string name="control_fast">Fast-forward</string>
+    <string name="edit_controls">Edit controls</string>
+    <string name="edit_layout">Edit layout</string>
+    <string name="editing_portrait">Portrait layout · rotate to edit landscape</string>
+    <string name="editing_landscape">Landscape layout · rotate to edit portrait</string>
+    <string name="edit_layout_hint">Tap a button to select it. Drag to move it, pinch or use the slider to resize.</string>
+    <string name="move_toolbar">Move toolbar</string>
+    <string name="reset_button">Reset</string>
+    <string name="reset_all">Reset all</string>
+    <string name="cancel">Cancel</string>
+    <string name="layout_saved">Layout saved</string>
+    <string name="discard_title">Discard changes?</string>
+    <string name="discard_body">Your layout changes haven\'t been saved.</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep editing</string>
+    <string name="game_screen">Game screen</string>
+
+    <!-- Settings -->
+    <string name="section_gameplay">Gameplay</string>
+    <string name="section_controls">Touch controls</string>
+    <string name="section_appearance">Appearance</string>
+    <string name="section_folders">Game folders</string>
+    <string name="section_about">About</string>
+    <string name="setting_resume">Resume where you left off</string>
+    <string name="setting_resume_hint">Games reopen at the exact moment you closed them</string>
+    <string name="setting_rewind">Rewind</string>
+    <string name="setting_rewind_hint">Hold « (or L2 on a controller) to go back in time</string>
+    <string name="setting_ff_speed">Fast-forward speed</string>
+    <string name="setting_ff_speed_hint">Tap » to toggle, or hold R2 on a controller</string>
+    <string name="setting_haptics">Vibrate on press</string>
+    <string name="setting_haptics_hint">Light feedback when touching buttons</string>
+    <string name="setting_button_style">Button style</string>
+    <string name="setting_custom_layout">Customize layout</string>
+    <string name="setting_custom_layout_hint">Move and resize every button. Portrait and landscape are saved separately.</string>
+    <string name="setting_reset_layout">Reset to default layout</string>
+    <string name="setting_reset_layout_hint">Removes your custom portrait and landscape layouts</string>
+    <string name="setting_opacity">Button opacity</string>
+    <string name="setting_size">Button size</string>
+    <string name="setting_dynamic_color">Wallpaper colors</string>
+    <string name="setting_dynamic_color_hint">Match the app\'s colors to your wallpaper</string>
+    <string name="no_folders">No folders yet. Games you open one by one still appear in the library.</string>
+    <string name="version_n">Version %s</string>
+    <string name="legal_note">M-ulator is an independent project and isn\'t affiliated with or endorsed by any console maker. It contains no games or system software. Only play games you own.</string>
+</resources>
