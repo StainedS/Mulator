@@ -84,11 +84,6 @@ into the overworld.
 Not done yet: link cable, cycle-exact prefetch and
 open-bus edge cases, shaders, cheats, controller remapping.
 
-## Legal
-
-Do not ship game files or any console maker's BIOS or system software with the app. Users
-must supply their own game files. Keep console makers' names, logos and game artwork out of
-the app name, icon, store listing and screenshots (use homebrew or the test ROMs for screenshots).
 
 ## Testing
 
